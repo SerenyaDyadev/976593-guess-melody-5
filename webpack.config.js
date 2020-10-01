@@ -9,7 +9,7 @@ module.exports = {
   devServer: {
     contentBase: path.resolve(__dirname, 'public'),
     open: false,
-    port: 1337,
+    port: 1338,
   },
   module: {
     rules: [
@@ -27,3 +27,4 @@ module.exports = {
   },
   devtool: 'source-map',
 };
+ 
